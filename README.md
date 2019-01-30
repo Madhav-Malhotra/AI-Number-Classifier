@@ -1,10 +1,10 @@
 # AI-Number-Classifier
 
-This is a neural network to classify handwritten digits. 
+This is a neural network to classify handwritten digits.
 I train the network with the MNIST Database and base the code from the book "Neural Networks and Deep Learning" by Michael A. Nielsen. 
 The file mnist_loader.py is created by Michal Daniel Dobrzanski and can be found in this repository: 
 https://github.com/MichalDanielDobrzanski/DeepLearningPython35.
-The data used can be found here: 
+The data contains 28 * 28 pixel images of handwritten digits from the MNIST database and can be found here: 
 http://yann.lecun.com/exdb/mnist/.
 A tutorial to do this yourself can be found here:
 http://neuralnetworksanddeeplearning.com/chap1.html.
