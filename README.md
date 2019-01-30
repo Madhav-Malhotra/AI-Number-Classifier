@@ -18,9 +18,9 @@ Open the main.py file in a Python IDE (Editor). I would recommend https://repl.i
 In the Python shell, input the following:
 
 import mnist_loader
->>> trainingData, validationData, testingData = \
-... mnist_loader.load_data_wrapper()
->>> import main
->>> net = Network([784, 30, 10])
->>> net.gradientDescent(trainingData, 5, 10, 3.0, \
-... testingData = testingData)
+trainingData, validationData, testingData = \
+mnist_loader.load_data_wrapper()
+import main
+net = Network([784, 30, 10])
+net.gradientDescent(trainingData, 5, 10, 3.0, \
+testingData = testingData)
