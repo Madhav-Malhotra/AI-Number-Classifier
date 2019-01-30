@@ -17,10 +17,8 @@ Download the main.py, mnist_loader.py, and mnist.pkl.gz files into one directory
 Open the main.py file in a Python IDE (Editor). I would recommend https://repl.it as it is conveniently online.
 In the Python shell, input the following:
 
-import mnist_loader
-trainingData, validationData, testingData = \
-mnist_loader.load_data_wrapper()
-import main
-net = Network([784, 30, 10])
-net.gradientDescent(trainingData, 5, 10, 3.0, \
-testingData = testingData)
+import mnist_loader \
+trainingData, validationData, testingData = mnist_loader.load_data_wrapper() \
+import main \
+net = Network([784, 30, 10]) \
+net.gradientDescent(trainingData, 5, 10, 3.0, testingData = testingData)
