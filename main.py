@@ -3,11 +3,14 @@ import numpy
 import random
 
 '''
+Input the following into the python shell to run the program.
 import mnist_loader
 >>> training_data, validation_data, test_data = \
 ... mnist_loader.load_data_wrapper()
-net = Network([784, 30, 10]);
-net.gradientDescent(trainingData, 30, 10, 3.0);
+>>> import main
+>>> net = Network([784, 30, 10]);
+net.gradientDescent(trainingData, 30, 10, 3.0, \
+testingData = testingData);
 '''
 
 class Network (object):
