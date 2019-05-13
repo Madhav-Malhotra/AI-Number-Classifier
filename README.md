@@ -22,3 +22,7 @@ trainingData, validationData, testingData = mnist_loader.load_data_wrapper() \
 import main \
 net = Network([784, 30, 10]) \
 net.gradientDescent(trainingData, 5, 10, 3.0, testingData = testingData)
+
+UPDATE
+---------------------------------------------
+I've recently added another implementation of this project with a CNN based on Tensorflow. It performs the same task, however, it is more computationally intensive. Thus, it will need more training to reach comparable accuracy to the earlier neural network implementation.
